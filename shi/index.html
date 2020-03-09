@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+<head>
+    <meta charset="UTF-8">
+    <title>拾．brunch & Space</title>
+    <!-- vendor -->
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="vendor/swipe/swiper.min.css">
+    <link rel="stylesheet" href="vendor/lightbox2-dev/dist/css/lightbox.min.css">
+    <!-- ----- -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/jumbotron.css">
+    <link rel="stylesheet" href="css/story.css">
+    <link rel="stylesheet" href="css/colors.css">
+    <link rel="stylesheet" href="css/synthesis.css">
+    <link rel="stylesheet" href="css/guide.css">
+    <link rel="stylesheet" href="css/direct.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <div class="wrapper">
+        <!-- header start -->
+    <input type="checkbox" id="menu-toggle"/>
+    <header class="header">
+        <a href="#jumbotron" class="top">TOP</a>
+        <label id="trigger" for="menu-toggle"></label>
+        <label id="burger" for="menu-toggle"></label>
+        <div class="menu-wrapper">
+            <ul id="menu" class="menu">
+                <li class="linkList">
+                    <a href="#story" class="link linkPadding">品牌故事</a>
+                </li>
+                <li class="linkList">
+                    <a href="#colors" class="link">品牌色彩</a>
+                </li>
+                <li class="linkList">
+                    <a href="#guide" class="link">使用指南</a>
+                </li>
+                <li class="linkList">
+                    <a href="#direct" class="link">使用準則</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+        <!-- header end -->
+        <!-- ------------------------- -->
+        <!-- main start -->
+        <main>
+            <!-- jumbotron start -->
+            <section class="jumbotron position">
+                <div class="tag" id="jumbotron"></div>
+                <div class="backgroundImage"></div>
+                <div class="logo js-fadeInUp"></div>
+            </section>
+            <!-- jumbotron end -->
+            <!-- ------------------------- -->
+            <!-- story start -->
+            <section class="story position">
+                <div class="tag" id="story"></div>
+                <div class="row">
+                    <div class="col-1-center">
+                        <div class="info js-fadeInDown-200">
+                            <h1>拾．Brunch & Space</h1>
+                            <h2>俯有拾，仰有取。——《史記·貨殖列傳》</h2>
+                            <p class="para">指一舉一動都有收獲。</p>
+                            <p class="para">『拾』提供一個空間，無論是用餐、看展、偷閒，讓來此的人們歇息片刻，即使只是待在這裡耍廢，心裡也能有所得到。</p>
+                            <h2>logo的寓意</h2>
+                            <p class="para">左邊的湯匙為『扌』，右邊的『合』則是叉子和盤子；灰色的『二』代表兩個不同的結合——餐廳與展演空間。</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-1-1">
+                        <div class="logoSample js-fadeInUp-400-story"></div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-1-1-none col-1-center js-fadeInUp-400-story">
+                        <h3 class="title">logo示範</h3>
+                        <div class="sample">
+                            <div class="group">
+                                <div class="image js-fadeInDown-600-story" style="background-image: url('image/logo.svg');"></div>
+                                <div class="image js-fadeInDown-700-story" style="background-image: url('image/logo-white.svg');"></div>
+                                <div class="image js-fadeInDown-800-story" style="background-image: url('image/logo-black.svg');"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- story end -->
+            <!-- ------------------------- -->
+            <!-- colors start -->
+            <section class="colors position">
+                <div class="tag" id="colors"></div>
+                <div class="row">
+                    <div class="col-1-1">
+                        <div class="frame-bg">
+                            <div class="background"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- colors end -->
+            <!-- ------------------------- -->
+            <section class="synthesis position js-fadeInDown-200">
+                <div class="tag" id="synthesis"></div>
+                <div class="row">
+                    <div class="col-1-1">
+                        <div class="demoGroup">
+                            <div class="demoLarge js-fadeInLeft-400-synthesis" style="background-image: url('image/mockup.jpg');">
+                                <a href="image/mockup.jpg" class="link"  data-lightbox="synthesis">link</a>
+                            </div>
+                            <div class="demoSmall">
+                                <div class="demoTop js-fadeInRight-600-synthesis" style="background-image: url('image/business-card.jpg');">
+                                    <a href="image/business-card.jpg" class="link"  data-lightbox="synthesis">link</a>
+                                </div>
+                                <div class="demoBottom js-fadeInRight-800-synthesis" style="background-image: url('image/menu.jpg');">
+                                    <a href="image/menu.jpg" class="link"  data-lightbox="synthesis">link</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-1-1">
+                        <div class="demoGroup demoGroup-row-reverse">
+                            <div class="demoSmall">
+                                <div class="demoTop js-fadeInLeft-700-synthesis" style="background-image: url('image/2f.webp');">
+                                    <a href="image/2f.webp" class="link"  data-lightbox="synthesis">link</a>
+                                </div>
+                                <div class="demoBottom js-fadeInLeft-900-synthesis" style="background-image: url('image/3f.jpg');">
+                                    <a href="image/3f.jpg" class="link"  data-lightbox="synthesis">link</a>
+                                </div>
+                            </div>
+                            <div class="demoLarge js-fadeInRight-500-synthesis" style="background-image: url('image/1f.jpg');">
+                                <a href="image/1f.jpg" class="link"  data-lightbox="synthesis">link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- ------------------------- -->
+            <!-- guide start -->
+            <section class="guide position">
+                <div class="tag" id="guide"></div>
+                <div class="row">
+                    <div class="info col-flex-col-center">
+                        <div class="col-1-3">
+                            <div class="description js-fadeInDown1-guide">
+                                <h3 class="title">掌握基礎系統</h3>
+                                <p class="para">本手冊按照由基礎至應用系統的順序編排，基礎系統是整個VI的基石，應用系統是基礎元素的具體使用。兩系統既相對獨立，又有相聯繫。在使用時，應先明確基礎系統的指導原則和基本規定，再按照應用系統的規範執行，避免錯誤使用。</p>
+                            </div>
+                        </div>
+                        <div class="col-1-3">
+                            <div class="description descriptionIndent js-fadeInDown2-guide">
+                                <h3 class="title">嚴格執行規定</h3>
+                                <p class="para paraIndent">1. 凡手冊明確規定的條文，規範和規格，如基礎部分和應用系統中的各項具體規定，應嚴格遵守，不得隨意更改。</p>
+                                <p class="paraIndent">2. 凡手冊明確規定的部分，如今後新增的應用設計項目，凡設計標誌，標準字，標準色等基本要色的，必須嚴格遵守基礎系統的有關規定，不得擅自更改。其具體表現形式、風格，也應參照本手冊類似的應用設計項目，保持整體風格一致。</p>
+                            </div>
+                        </div>
+                        <div class="col-1-3">
+                            <div class="description js-fadeInDown3-guide">
+                                <h3 class="title">採用誤差小的使用方式</h3>
+                                <p class="para">實施應用設計項目時，對使用的圖形，應盡量從所附光碟中選取。在無法使用電子文件的情況下，可按本手冊規定的製圖法生產。使用的色彩以本手冊提供色值為基準，同時要依照手冊提供的色彩樣票。</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- guide end -->
+            <!-- ------------------------- -->
+            <!-- direct start -->
+            <section class="direct position">
+                <div class="tag" id="direct"></div>
+                <div class="row-none">
+                    <div class="group">
+                        <div class="background js-fadeInUp">
+                            <div class="info">
+                                <div class="col-1-2 infoLeft">
+                                    <h3 class="infoTitle">商標淨空區域</h3>
+                                    <p class="para">商標周邊需要保留一定的淨空區域，才能保證商標在每次出現時，都保有一定的辨識度，不至於被其他因素或元件干擾而影響品牌商標的獨特性。</p>
+                                    <p class="para">淨空範圍的尺寸為logo長邊之長度的 四分之一至八分之一，使用時請確認商標的淨空範圍內，無嚴重干擾。</p>
+                                </div>
+                                <div class="col-1-2 infoRight">
+                                    <h3 class="infoTitle">商標最小使用尺寸</h3>
+                                    <p class="para">為因應logo在各種條件下都能維持一定的辨識度與一致性，因此制定了不同方式的排列，讓使用者得以依照需求使用合適的呈現。</p>
+                                    <p class="para">圖為標誌的各尺寸區間使用方式，及最小使用尺寸，在使用時不得小於此，以避免因標誌太小而不易辨識。使用此商標盡量不小於30.545mm x 35mm。</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row imagesGroup forPc">
+                    <div class="images">
+                        <div class="col-1-4 col-1-4-directImages">
+                            <div class="image" style="background-image: url('image/wrong logo/1.jpg')"></div>
+                            <h4 class="title">改變漸層方向</h4>
+                        </div>
+                        <div class="col-1-4 col-1-4-directImages">
+                            <div class="image" style="background-image: url('image/wrong logo/2.jpg')">
+                                <h4 class="title">改變顏色</h4>
+                            </div>
+                        </div>
+                        <div class="col-1-4 col-1-4-directImages">
+                            <div class="image" style="background-image: url('image/wrong logo/3.jpg')">
+                                <h4 class="title">加底色</h4>
+                            </div>
+                        </div>
+                        <div class="col-1-4 col-1-4-directImages">
+                            <div class="image" style="background-image: url('image/wrong logo/4.jpg')">
+                                <h4 class="title">缺漏文字</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="images">
+                        <div class="col-1-4 col-1-4-directImages">
+                            <div class="image" style="background-image: url('image/wrong logo/5.jpg')">
+                                <h4 class="title">變形</h4>
+                            </div>
+                        </div>
+                        <div class="col-1-4 col-1-4-directImages">
+                            <div class="image" style="background-image: url('image/wrong logo/6.jpg')">
+                                <h4 class="title">傾斜</h4>
+                            </div>
+                        </div>
+                        <div class="col-1-4 col-1-4-directImages">
+                            <div class="image" style="background-image: url('image/wrong logo/7.jpg')">
+                                <h4 class="title">旋轉</h4>
+                            </div>
+                        </div>
+                        <div class="col-1-4 col-1-4-directImages">
+                            <div class="image" style="background-image: url('image/wrong logo/8.jpg')">
+                                <h4 class="title">文字在上</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row imagesGroup forMobile">
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="col-1-4-directImages">
+                                    <div class="image 1" style="background-image: url('image/wrong logo/1.jpg')"></div>
+                                    <h4 class="title">改變漸層方向</h4>
+                                </div>
+                            </div>
+                                <div class="swiper-slide col-1-4-directImages">
+                                    <div class="image" style="background-image: url('image/wrong logo/2.jpg')">
+                                        <h4 class="title">改變顏色</h4>
+                                    </div>
+                                </div>
+                            <div class="swiper-slide col-1-4-directImages">
+                                <div class="image" style="background-image: url('image/wrong logo/3.jpg')">
+                                    <h4 class="title">加底色</h4>
+                                </div>
+                            </div>
+                            <div class="swiper-slide col-1-4-directImages">
+                                <div class="image" style="background-image: url('image/wrong logo/4.jpg')">
+                                    <h4 class="title">缺漏文字</h4>
+                                </div>
+                            </div>
+                            <div class="swiper-slide col-1-4-directImages">
+                                <div class="image" style="background-image: url('image/wrong logo/5.jpg')">
+                                    <h4 class="title">變形</h4>
+                                </div>
+                            </div>
+                            <div class="swiper-slide col-1-4-directImages">
+                                <div class="image" style="background-image: url('image/wrong logo/6.jpg')">
+                                    <h4 class="title">傾斜</h4>
+                                </div>
+                            </div>
+                            <div class="swiper-slide col-1-4-directImages">
+                                <div class="image" style="background-image: url('image/wrong logo/7.jpg')">
+                                    <h4 class="title">旋轉</h4>
+                                </div>
+                            </div>
+                            <div class="swiper-slide col-1-4-directImages">
+                                <div class="image" style="background-image: url('image/wrong logo/8.jpg')">
+                                    <h4 class="title">文字在上</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Add Arrows -->
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                        <!-- Add Pagination -->
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+            </section>
+            <!-- direct end -->
+            <!-- ------------------------- -->
+        </main>
+        <!-- main end -->
+        <!-- footer start -->
+        <footer>
+            <p class="para">Copyright © 2020 Jing All rights reserved</p>
+        </footer>
+        <!-- footer end -->
+    </div>
+    <!-- vendor -->
+    <script src="vendor/scrollreveal/scrollreveal.js"></script>
+    <script src="vendor/swipe/swiper.min.js"></script>
+    <script src="vendor/lightbox2-dev/dist/js/lightbox-plus-jquery.min.js"></script>
+    <!-- ------------------------- -->
+    <!-- click start -->
+    <script>
+        document.querySelectorAll('.link').forEach(function(dom) {
+          dom.addEventListener('click', function (e) {
+            document.querySelector('#menu-toggle').checked = false;
+          })
+        })
+    </script>
+    <!-- click end -->
+    <!-- ----- -->
+    <!-- lightbox start -->
+    <script>
+        // lightbox
+        lightbox.option({
+            'resizeDuration': 400,
+            'wrapAround': true
+        })
+    </script>
+    <!-- lightbox end <-->4</-->b
+    <!-- ----- -->
+    <!-- scrollreveal start -->
+    <script>
+        // scrollreveal
+        if (1){
+            ScrollReveal().reveal('.js-fadeInUp',{
+                origin: 'bottom',
+                distance: '50px',
+                delay: 200,
+                duration: 800,
+                reset: true
+            });
+            // -----
+            ScrollReveal().reveal('.js-fadeInDown-200',{
+                origin: 'top',
+                distance: '50px',
+                delay: 200,
+                duration: 800,
+                reset: true
+            });
+            ScrollReveal().reveal('.js-fadeInUp-400-story',{
+                origin: 'bottom',
+                distance: '50px',
+                delay: 400,
+                duration: 800,
+                reset: true
+            });
+            ScrollReveal().reveal('.js-fadeInDown-600-story',{
+                origin: 'top',
+                distance: '25px',
+                delay: 600,
+                duration: 800,
+                reset: true
+            });
+            ScrollReveal().reveal('.js-fadeInDown-700-story',{
+                origin: 'top',
+                distance: '25px',
+                delay: 700,
+                duration: 800,
+                reset: true
+            });
+            ScrollReveal().reveal('.js-fadeInDown-800-story',{
+                origin: 'top',
+                distance: '25px',
+                delay: 800,
+                duration: 800,
+                reset: true
+            });
+            // -----
+            ScrollReveal().reveal('.js-fadeInLeft-400-synthesis',{
+                origin: 'left',
+                distance: '20px',
+                delay: 400,
+                duration: 800,
+                reset: true
+            });
+            ScrollReveal().reveal('.js-fadeInRight-600-synthesis',{
+                origin: 'right',
+                distance: '20px',
+                delay: 600,
+                duration: 800,
+                reset: true
+            });
+            ScrollReveal().reveal('.js-fadeInRight-800-synthesis',{
+                origin: 'right',
+                distance: '20px',
+                delay: 800,
+                duration: 800,
+                reset: true
+            });
+            ScrollReveal().reveal('.js-fadeInRight-500-synthesis',{
+                origin: 'right',
+                distance: '20px',
+                delay: 500,
+                duration: 800,
+                reset: true
+            });
+            ScrollReveal().reveal('.js-fadeInLeft-700-synthesis',{
+                origin: 'left',
+                distance: '20px',
+                delay: 700,
+                duration: 800,
+                reset: true
+            });
+            ScrollReveal().reveal('.js-fadeInLeft-900-synthesis',{
+                origin: 'left',
+                distance: '20px',
+                delay: 900,
+                duration: 800,
+                reset: true
+            });
+            // -----
+            ScrollReveal().reveal('.js-fadeInDown1-guide',{
+                origin: 'top',
+                distance: '50px',
+                delay: 500,
+                duration: 800,
+                reset: true
+            });
+            ScrollReveal().reveal('.js-fadeInDown2-guide',{
+                origin: 'top',
+                distance: '50px',
+                delay: 700,
+                duration: 800,
+                reset: true
+            });
+            ScrollReveal().reveal('.js-fadeInDown3-guide',{
+                origin: 'top',
+                distance: '50px',
+                delay: 900,
+                duration: 800,
+                reset: true
+            });
+            // -----
+            ScrollReveal().reveal('.js-fadeInLeft1',{
+                origin: 'left',
+                distance: '50px',
+                delay: 300,
+                duration: 800,
+                reset: true
+            });
+            ScrollReveal().reveal('.js-fadeInLeft2',{
+                origin: 'left',
+                distance: '50px',
+                delay: 500,
+                duration: 800,
+                reset: true
+            });
+            ScrollReveal().reveal('.js-fadeInLeft3',{
+                origin: 'left',
+                distance: '50px',
+                delay: 700,
+                duration: 800,
+                reset: true
+            });
+            ScrollReveal().reveal('.js-fadeInLeft4',{
+                origin: 'left',
+                distance: '50px',
+                delay: 900,
+                duration: 800,
+                reset: true
+            });
+            ScrollReveal().reveal('.js-fadeInLeft5',{
+                origin: 'left',
+                distance: '50px',
+                delay: 1100,
+                duration: 800,
+                reset: true
+            });
+            ScrollReveal().reveal('.js-fadeInLeft6',{
+                origin: 'left',
+                distance: '50px',
+                delay: 1300,
+                duration: 800,
+                reset: true
+            });
+            ScrollReveal().reveal('.js-fadeInLeft7',{
+                origin: 'left',
+                distance: '50px',
+                delay: 1500,
+                duration: 800,
+                reset: true
+            });
+            ScrollReveal().reveal('.js-fadeInLeft8',{
+                origin: 'left',
+                distance: '50px',
+                delay: 1700,
+                duration: 800,
+                reset: true
+            });
+        }
+    </script>
+    <!-- scrollreveal end -->
+    <!-- ----- -->
+    <!-- swiper start -->
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            cssMode: true,
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            pagination: {
+                el: '.swiper-pagination'
+            },
+            mousewheel: true,
+            keyboard: true,
+        });
+    </script>
+    <!-- swiper end -->
+</body>
+</html>
