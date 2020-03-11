@@ -27,7 +27,7 @@ li, a{
     display: none;
 }
 
-li {
+li{
     width: 100%;
     text-align: center;
     color: #fff;
@@ -96,7 +96,7 @@ header{
     transition-duration: .2s;
 }
 
-.menu-wrapper {
+.menu-wrapper{
     overflow-y: hidden;
     position: absolute;
     top: 0;
@@ -108,7 +108,7 @@ header{
     background-color: rgba(27, 39, 59, 0.9);
 }
 
-#menu {
+#menu{
     margin: 0;
     padding: 0;
     width: 100%;
@@ -117,19 +117,19 @@ header{
 }
 
 #menu-toggle:checked + header li,
-#menu-toggle:checked + header a {
+#menu-toggle:checked + header a{
     display: block;
 }
 
-#menu-toggle:checked + header {
+#menu-toggle:checked + header{
     height: 100%;
 }
 
-#menu-toggle:checked + header .menu-wrapper {
+#menu-toggle:checked + header .menu-wrapper{
     overflow-y: auto;
 }
 
-input#menu-toggle[type="checkbox"] {
+input#menu-toggle[type="checkbox"]{
     display: none;
 }
 
@@ -145,6 +145,22 @@ header .top{
     color: #fff;
     background-color: rgba(27, 39, 59, 1);
     line-height: 60px;
+}
+
+@media (max-width: 500px) {
+    header .top{
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        width: 48px;
+        height: 48px;
+        border-radius: 50%;
+        font-size: 16px;
+        text-align: center;
+        color: #fff;
+        background-color: rgba(27, 39, 59, 1);
+        line-height: 48px;
+    }
 }
 
 /*header end*/
